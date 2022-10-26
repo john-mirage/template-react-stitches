@@ -19,8 +19,9 @@
     "paths": {
       "@components/*": ["src/components/*"],
       "@images/*": ["src/images/*"],
+      "@styles/*": ["src/styles/*"],
       "@test/*": ["src/test/*"],
-      "@utils/*": ["src/utils/*"]
+      "@utils/*": ["src/utils/*"],
     },
     "types": ["vitest/globals"]
   },
