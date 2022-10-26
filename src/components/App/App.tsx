@@ -1,18 +1,9 @@
-import { FunctionComponent } from "react";
-import { ThemeProvider } from "styled-components";
-import GlobalStyle from "./GlobalStyle";
+import globalStyles from "@styles/stitches.global";
 import * as Styled from "./App.style";
-import theme from "./theme";
 
-const App: FunctionComponent = () => {
-  return (
-    <>
-      <GlobalStyle />
-      <ThemeProvider theme={theme}>
-        <Styled.App></Styled.App>
-      </ThemeProvider>
-    </>
-  );
+const App = () => {
+  globalStyles();
+  return <Styled.Button>Test</Styled.Button>;
 };
 
 export default App;
