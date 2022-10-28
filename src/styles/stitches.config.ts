@@ -6,6 +6,9 @@ export const { styled, css } = createStitches({
       gray400: "gainsboro",
       gray500: "lightgray",
     },
+    space: {
+      4: "0.25rem",
+    }
   },
   media: {
     bp1: "(min-width: 480px)",
