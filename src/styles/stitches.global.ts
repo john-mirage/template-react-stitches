@@ -8,6 +8,7 @@ const globalStyles = globalCss({
     minHeight: "100vh",
     textRendering: "optimizeSpeed",
     lineHeight: 1.5,
+    fontFamily: "$mySansFont",
   },
   "a": { textDecoration: "none" },
   "img, picture, svg": { display: "block" },
